@@ -1,6 +1,7 @@
 Link a Vercel: https://prueba-digital-solutions.vercel.app/
 
 Esta prueba tecnica se basa en desarrollar una pagina web con el siguiente esquema
+```
 
 +---------------------------+-------------------------------------------------+
 |                           |                                                 |
@@ -28,7 +29,7 @@ Esta prueba tecnica se basa en desarrollar una pagina web con el siguiente esque
 |          Precio 5         |                           |                     |
 |                           |                           |                     |
 +---------------------------+---------------------------+---------------------+
-
+```
 Donde se puede usar cualquier framework de front end disponible, sin embargo por simplicidad y por cuestiones deespacio en disco,
 se decidio hacerla con HTML, CSS y Javascript, usando herramientas de Bootstrap.
 
