@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cortes El Carnicero</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+  <div class="row h-100">
+    <div class="col-3 offset-1">
+      <div class="container h-100 d-flex flex-column" id="columnaProds">
+        <div class="row flex-grow-1">
+          <p class="text-center fs-1" id="prodNrm0">Prod normal 1</p><br>
+          <p class="text-center fs-3" id="prodPrc0">$350</p>
+        </div>
+        <div class="row flex-grow-1">
+          <p class="text-center fs-1" id="prodNrm1">Prod normal 1</p><br>
+          <p class="text-center fs-3" id="prodPrc1">$350</p>
+        </div>
+        <div class="row flex-grow-1">
+          <p class="text-center fs-1" id="prodNrm2">Prod normal 1</p><br>
+          <p class="text-center fs-3" id="prodPrc2">$350</p>
+        </div>
+        <div class="row flex-grow-1">
+          <p class="text-center fs-1" id="prodNrm3">Prod normal 1</p><br>
+          <p class="text-center fs-3" id="prodPrc3">$350</p>
+        </div>
+        <div class="row flex-grow-1">
+          <p class="text-center fs-1" id="prodNrm4">Prod normal 1</p><br>
+          <p class="text-center fs-3" id="prodPrc4">$350</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="row h-80">
+        <div class="ratio ratio-16x9">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner w-100">
+              <div class="carousel-item active">
+                <video autoplay muted loop id="videoPlayer1" class="d-block" style="width: 120%;"></video>
+              </div>
+              <div class="carousel-item">
+                <video autoplay muted loop id="videoPlayer2" class="d-block" style="width: 120%;"></video>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div id="carouselExample" class="carousel slide w-auto" data-bs-ride="carousel">
+            <div class="carousel-inner w-100">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="imagenes/img1.jpg" class="d-block w-100" alt="..." id="img1">
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="imagenes/img2.jpg" class="d-block w-100" alt="..." id="img2">
+              </div>
+              <div class="carousel-item ratio" style="--bs-aspect-ratio: 67%;" data-bs-interval="10000">
+                <img src="imagenes/img3.jpg" class="d-block w-100" alt="..." id="img3">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-9" id="colEspProds">
+          <div class="row">
+            <div class="col" >
+              <p class="text-center fs-1" id="prodEsp">
+                Prod Especial
+              </p>
+            </div>
+            <div class="col">
+              <p class="text-center fs-1" id="precEsp">
+                Precio Especial
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script src="scriptComida.js"></script>
+</body>
+</html>
